@@ -9,6 +9,8 @@ RUN apt install -y libgomp1 curl vim
 
 RUN rm -rf /var/lib/apt/lists/* 
 
+EXPOSE 6532
+
 WORKDIR /root
 
 ADD V-Dimension-0.9.13-1-1f520b4-amd64.deb /root
