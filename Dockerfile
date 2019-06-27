@@ -23,3 +23,4 @@ ADD vds.conf .vds
 
 ENTRYPOINT ["vdsd", "-daemon=0"]
 
+# docker run -d -p 6521:6521 vds -daemon=0 -rpcport=6521 -rpcbind=0.0.0.0 -rpcallowip=10.22.238.181
